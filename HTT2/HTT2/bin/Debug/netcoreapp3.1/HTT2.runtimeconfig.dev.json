@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/azer/.dotnet/store/|arch|/|tfm|",
+      "/Users/azer/.nuget/packages"
+    ]
+  }
+}

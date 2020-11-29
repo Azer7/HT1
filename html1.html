@@ -8,6 +8,22 @@
 <p>This is a paragraph.</p>
 <p>This is a paragraph.</p>
 
+<input type="checkbox" name="fruit" value="Apple" checked='checked'/>
+</br>  
+<button class="secondary-button">Delete Attr</button>
+<button class="main-button" disabled>CLICK ME</button>
+
+
+
+<!-- how make disabled above to true? (change attributes value)-->
+
+
+<script>
+
+    document.querySelector('.secondary-button').addEventListener('click', function(){
+        document.querySelector('.main-button').removeAttribute('disabled');
+    })
+</script>
 
 </body>
 </html>
