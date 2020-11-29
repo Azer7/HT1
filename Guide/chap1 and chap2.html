@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<title>HTML Tutorial</title>
+<body>
+<!-- checking basic elements-->
+<h1>This is a heading</h1>
+<h2>AT LEAST IT WORKS</h2>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<input type="checkbox" name="fruit" value="Apple" checked='checked'/>
+</br>  
+
+<!-- embedding content-->
+
+<iframe name="content"></iframe>
+<a href="https://www.haqqin.az" target="content">satqin.az</a>
+<a href="mailto:sales@contoso.com?subject=hello there&body=call me&cc=sales2@contoso.com>">hello mail</a>
+<img src="https://www.arabianbusiness.com/public/styles/full_img/public/images/2019/05/29/Ferrari_SF90_Stradale_5.jpg" alt="Ferrari">
+
+<a href="https://ferrari.com" target="_blank"> <img src="https://www.arabianbusiness.com/public/styles/full_img/public/images/2019/05/29/Ferrari_SF90_Stradale_5.jpg" alt="ok"></a>
+
+
+
+
+
+<!-- time for JS. just a little bit :) -->
+<button class="secondary-button">Delete Attr</button>
+<button class="main-button" disabled>CLICK ME</button>
+<script>
+
+    document.querySelector('.secondary-button').addEventListener('click', function(){
+        document.querySelector('.main-button').removeAttribute('disabled');
+    })
+
+    document.querySelector('.main-button').addEventListener('click', function(){
+        document.querySelector('.main-button').setAttribute('disabled', "");
+    })
+
+</script>
+
+</body>
+</html>
